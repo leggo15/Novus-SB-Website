@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-bar-title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #B6D0E2;
+    text-shadow: 1px 1px #9fc8e5;
+    text-decoration: none;
+}
+
+.nav-link-custom {
+    font-family: 'Exo 2', sans-serif;
+    color: #B6D0E2;
+    padding: 15px 15px 10px;
+    text-decoration: none;  /* Removes underline from links */
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link-custom:hover {
+    color: #febc0b;  /* Text color */
+}
+.past-text {
+    font-family: 'Rockwell', 'Rockwell';
+    font-weight: normal;
+}
+
+.future-text {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: normal; /* Consolas looks good without extra bolding */
+}
+
+.head-background {
+    background-color: #283687;
+    padding: 20px;
+}
+
+.top-background {
+    background-color: #B6D0E2;
+    padding: 20px;
+}
+.top-btn {
+    padding-bottom: 100px;
+}
+
+.hero-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;/
+}
+
+/* If more specific control is needed per device using media queries */
+@media (min-width: 1440px) { /* Example for large devices */
+    .hero-section {
+        padding-top: 16.5rem;
+        padding-bottom: 16.5rem;
+    }
+}
+
+
+
+/*
+#283687
+#2F3F9F
+*/
