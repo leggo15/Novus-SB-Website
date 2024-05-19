@@ -42,3 +42,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+const images = document.querySelectorAll("img");
+
+images.forEach(img => {
+    img.classList.add("loading");
+
+    img.onload = () => {
+    img.classList.remove("loading");
+    img.classList.add("loaded");
+    };
+});
+});
+
